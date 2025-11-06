@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "CSS Customizado @nerusWeb v1.0",
+    "version": "1.0",
+    "description": "CSS Customizado @nerusWeb v1.0 to SACI",
+    "content_scripts": [
+      {
+        "matches": ["http://saci.m2j.com.br:8091/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
