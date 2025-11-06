@@ -5,8 +5,9 @@
     "description": "CSS Customizado @nerusWeb v1.0 to SACI",
     "content_scripts": [
       {
-        "matches": ["http://saci.m2j.com.br:8091/*"],
+        "matches": ["http://saci.m2j.com.br:8020/*"],
         "js": ["content.js"]
       }
     ]
   }
+
